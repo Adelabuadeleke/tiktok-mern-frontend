@@ -5,8 +5,9 @@
 .app {
   height: 100vh;
   background-color: black;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app__videos {
