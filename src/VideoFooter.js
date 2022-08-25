@@ -14,7 +14,7 @@ function VideoFooter({channel, description, song}) {
           <Ticker mode="smooth">
             {({index}) => (
                 <>
-                <p></p>
+                <p>{song}</p>
                 </>
               )}
           </Ticker>

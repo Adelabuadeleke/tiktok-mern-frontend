@@ -27,3 +27,22 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+
+@media screen and (min-height: 700px) {
+  .app__videos {
+    height: 600px;
+  }  
+}
+
+@media screen and (min-height: 800px) {
+  .app__videos {
+    height: 700px;
+  }
+}
+
+@media screen and (min-height: 850px) {
+  .app__videos {
+    height: 800px;
+  }
+}
